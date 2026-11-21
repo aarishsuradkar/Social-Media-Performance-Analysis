@@ -1,0 +1,11 @@
+Comparison,Test_Method,Statistic,P_Value,Confidence_Label,Plain_Language_Result
+Content Type Differences,Kruskal-Wallis H-test,1390.3438,1.9376e-286,clear difference,"Significant format disparity (H=1390.3, p<0.001); Duet & Stitch lead median ER."
+Platform Differences,Kruskal-Wallis H-test,1760.3597,0.0000e+00,clear difference,"Massive cross-platform gap (H=1760.4, p<0.001); TikTok dominates at 11.62% median ER."
+Day of Week Differences,Kruskal-Wallis H-test,4.4415,0.6172,weak or unclear,No statistically significant timing difference across days of the week (p=0.617).
+Hour of Day Differences,Kruskal-Wallis H-test,21.3055,0.5624,weak or unclear,No statistically significant timing difference across publication hours (p=0.562).
+Hashtag Count Correlation,Spearman Rank Correlation,-0.0072,0.6085,weak or unclear,"No meaningful correlation between hashtag volume and engagement rate (r=-0.0072, p=0.608)."
+Caption Length Correlation,Spearman Rank Correlation,-0.246,7.8278e-70,clear difference,Significant negative correlation: concise text <=50 chars achieves 5.67% median ER vs 2.26% for 300+ chars.
+Sentiment Differences,Kruskal-Wallis H-test,1.4137,0.4932,weak or unclear,"Sentiment tone shows virtually identical medians (2.44% - 2.66%, p=0.493)."
+Follower Count Inverse Correlation,Spearman Rank Correlation,-0.6024,0.0000e+00,clear difference,Strong inverse power-law effect: Nano accounts achieve 95.39% median ER vs 1.93% for Macro.
+Daily Posting Frequency Correlation,Spearman Rank Correlation,-0.0541,0.1439,weak or unclear,"Aggregate daily posting frequency does not affect engagement rate (r=-0.0541, p=0.144)."
+Calendar Month Seasonality,Kruskal-Wallis H-test,25.4177,0.0079,clear difference,"Slight seasonal variation across calendar months (p=0.008), peaking in Spring."

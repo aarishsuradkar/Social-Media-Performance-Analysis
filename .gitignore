@@ -1,0 +1,19 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+env/
+.env
+
+# Data files: ignore root and raw csv, but keep output csvs
+*.csv
+!output/*.csv
+!output/**/*.csv
+
+# Scratch and temporary scripts
+scratch/
+test_stats.py
