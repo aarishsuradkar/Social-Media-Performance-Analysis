@@ -14,6 +14,21 @@ Every metric, statistical test, insight statement, and recommendation in this pr
 
 ---
 
+## 🖥️ Interactive Dashboard Previews
+
+The Streamlit dashboard (`dashboard/app.py`) provides an interactive interface with real-time sidebar filters, dynamic code-generated insight callouts, and responsive Plotly visualizations.
+
+### Tab 1: Overview & Longitudinal Trends
+![Overview & Trends](screenshots/01_tab_overview.png)
+
+### Tab 2: Content Formats & Text Optimization
+![Content Formats](screenshots/02_tab_content.png)
+
+### Tab 3: Timing Matrix & Benchmarks
+![Timing & Benchmarks](screenshots/03_tab_timing_benchmarks.png)
+
+---
+
 ## 📁 Dataset Profile
 
 - **Source**: Workspace dataset `social_media_engagement_dataset.csv`.
